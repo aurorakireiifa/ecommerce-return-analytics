@@ -198,16 +198,9 @@ Berdasarkan hasil analisis:
 
 ## 📈 Dashboard
 
-Dashboard dibuat menggunakan Microsoft Power BI dan terdiri dari tiga halaman:
+Dashboard interaktif dibuat menggunakan Power BI untuk menganalisis pola return, return cost, alasan pengembalian, serta dampak lingkungan dari aktivitas return.
 
-### Executive Overview
-![Executive Overview](dashboard/page-1-overview.png)
-
-### Return & Financial Analysis
-![Return & Financial Analysis](dashboard/page-2-return-financial.png)
-
-### Customer & ESG Analysis
-![Customer & ESG Analysis](dashboard/page-3-customer-esg.png)
+![Return Analytics Dashboard](images/dashboard.png)
 
 ---
 
