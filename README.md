@@ -190,7 +190,7 @@ Waste Avoided: 2.133,40
 
 Nilai tersebut menggambarkan indikator lingkungan yang tersedia dalam dataset. Interpretasi lebih lanjut perlu mempertimbangkan satuan, definisi, dan metode perhitungan setiap metrik.
 
-##💡 Rekomendasi Bisnis
+## 💡 Rekomendasi Bisnis
 
 Berdasarkan temuan analisis, beberapa rekomendasi yang dapat dipertimbangkan adalah:
 
@@ -259,9 +259,4 @@ ecommerce-return-analytics/
 │   └── customer-esg.png
 └── documentation/
     ├── PORTOFOLIO AURORA 2026.pdf
-    └── Return_Analytics_Portfolio.pdf
-```
-└── documentation/
-    ├── PORTOFOLIO AURORA 2026.pdf
-    └── Return_Analytics_Portfolio.pdf
 ```
