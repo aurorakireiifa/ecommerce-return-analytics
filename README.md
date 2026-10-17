@@ -190,7 +190,7 @@ Waste Avoided: 2.133,40
 
 Nilai tersebut menggambarkan indikator lingkungan yang tersedia dalam dataset. Interpretasi lebih lanjut perlu mempertimbangkan satuan, definisi, dan metode perhitungan setiap metrik.
 
-💡 Rekomendasi Bisnis
+##💡 Rekomendasi Bisnis
 
 Berdasarkan temuan analisis, beberapa rekomendasi yang dapat dipertimbangkan adalah:
 
@@ -206,7 +206,7 @@ Gunakan segmentasi pelanggan sebagai dasar eksplorasi. Perbedaan tingkat retur b
 
 Pantau indikator lingkungan. Gunakan metrik CO₂ dan limbah kemasan untuk memantau potensi dampak lingkungan, dengan memastikan definisi dan satuan pengukuran telah tervalidasi.
 
-Catatan Interpretasi
+## Catatan Interpretasi
 
 Analisis ini bersifat deskriptif dan bertujuan mengidentifikasi pola dalam dataset. Temuan tidak secara langsung membuktikan hubungan sebab-akibat. Rekomendasi di atas merupakan usulan tindak lanjut yang perlu dievaluasi lebih lanjut menggunakan data dan konteks operasional yang relevan.
 
