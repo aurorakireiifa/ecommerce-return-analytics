@@ -234,6 +234,15 @@ Menganalisis pola retur berdasarkan kelompok usia, gender, dan lokasi pelanggan,
 
 ![Dashboard Analisis Pelanggan dan ESG](images/customer-esg.png)
 
+## 📂 Akses File Proyek
+
+File pendukung proyek dapat diakses melalui tautan berikut:
+
+- **[Lihat File Power BI (.pbix)](powerbi/Return_Analytics.pbix)** — file dashboard untuk dibuka menggunakan Microsoft Power BI Desktop.
+- **[Lihat Portfolio Return Analytics (PDF)](documentation/Return_Analytics_Portfolio.pdf)** — dokumentasi proyek, metode analisis, visualisasi, dan hasil utama.
+- **[Lihat Dataset yang Telah Dibersihkan](data/returns_cleaned.xlsx)** — dataset hasil persiapan data yang digunakan dalam analisis.
+- **[Lihat Dataset CSV](data/returns_sustainability_dataset.csv)** — dataset CSV pendukung analisis.
+
 ## 📁 Struktur Proyek
 
 ```text
