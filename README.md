@@ -128,71 +128,87 @@ Membangun interactive dashboard menggunakan Power BI yang terdiri dari tiga hala
 
 ## 📊 Key Insights
 
-### 1. Overall Return Rate
+1. Kinerja Retur Secara Keseluruhan
 
-Dari 5.000 transaksi, terdapat **1.450 returned orders**, sehingga overall Return Rate mencapai **29.00%**.
+Dari total 5.000 pesanan, terdapat 1.450 pesanan yang dikembalikan, sehingga menghasilkan tingkat retur (Return Rate) sebesar 29%. Hasil ini menunjukkan bahwa hampir 3 dari 10 pesanan dalam dataset berstatus retur.
 
-### 2. Product Category
+2. Kategori Produk
 
-**Clothing** memiliki Return Rate tertinggi sebesar **37.43%** dan total Return Cost sebesar **Rp132,200**.
+Kategori Clothing memiliki tingkat retur tertinggi sebesar 37,43%, dengan total biaya retur sebesar Rp132.200. Kategori ini menjadi salah satu prioritas untuk ditinjau lebih lanjut karena memiliki tingkat retur dan biaya retur yang menonjol dibandingkan kategori lainnya.
 
-### 3. Discount
+3. Pola Retur Berdasarkan Diskon
 
-Transaksi dengan diskon **>30%** memiliki Return Rate sebesar **34.2%**, lebih tinggi dibandingkan overall Return Rate sebesar 29.00%.
+Kelompok transaksi dengan diskon di atas 30% memiliki tingkat retur sebesar 34,22%, lebih tinggi dibandingkan tingkat retur keseluruhan sebesar 29%. Pola ini menunjukkan adanya keterkaitan antara kelompok diskon tinggi dan tingkat retur yang lebih tinggi pada dataset, tetapi belum membuktikan bahwa diskon menyebabkan retur.
 
-### 4. Shipping Method
+4. Pola Retur Berdasarkan Metode Pengiriman
 
-Return Rate antar metode pengiriman relatif serupa:
+Tingkat retur berdasarkan metode pengiriman relatif berdekatan:
 
-- Express: 29.09%
-- Next-Day: 28.50%
-- Standard: 29.41%
+Standard: 29,41%
 
-Perbedaan antar metode pengiriman relatif kecil.
+Express: 29,09%
 
-### 5. Return Reason
+Next Day: 28,50%
 
-Secara keseluruhan, alasan retur terbanyak adalah:
+Selisih antar-metode pengiriman relatif kecil. Berdasarkan hasil deskriptif ini, belum terlihat perbedaan tingkat retur yang besar berdasarkan metode pengiriman.
 
-- **Defective: 382**
-- Changed Mind: 379
-- Wrong Item: 348
-- Size Issue: 341
+5. Alasan Retur
 
-### 6. Customer Demographics
+Alasan retur yang paling sering tercatat adalah:
 
-Return Rate berdasarkan kelompok usia relatif stabil, berada pada kisaran **27.52%–29.68%**.
+Defective: 382 pesanan
 
-Berdasarkan gender:
+Changed Mind: 379 pesanan
 
-- Female: 30.20%
-- Male: 27.72%
+Wrong Item: 348 pesanan
 
-### 7. Environmental Impact
+Size Issue: 341 pesanan
 
-Pada returned orders:
+Alasan Defective dan Changed Mind memiliki jumlah yang paling tinggi. Temuan ini dapat menjadi dasar untuk mengevaluasi kualitas produk, kejelasan informasi produk, serta kesesuaian ekspektasi pelanggan.
 
-- **CO₂ Emissions: 2,167.5**
-- **Packaging Waste: 864.2**
+6. Karakteristik Pelanggan
 
-Sementara dari non-returned orders:
+Tingkat retur antar-kelompok usia relatif stabil, dengan nilai yang berada di kisaran sekitar 28%–30%.
 
-- **CO₂ Saved: 5,333**
-- **Waste Avoided: 2,133.4**
+Berdasarkan gender, tingkat retur pelanggan perempuan sebesar 30,20%, sedangkan pelanggan laki-laki sebesar 27,72%. Perbedaan ini bersifat deskriptif dan belum cukup untuk menyimpulkan bahwa gender merupakan faktor penyebab retur.
 
----
+7. Indikator Dampak Lingkungan
 
-## 💡 Recommendations
+Dashboard mencatat indikator lingkungan berikut:
 
-Berdasarkan hasil analisis:
+Pada pesanan yang dikembalikan:
 
-1. **Prioritaskan evaluasi kategori Clothing** karena memiliki Return Rate tertinggi.
-2. **Evaluasi transaksi dengan diskon tinggi**, terutama diskon di atas 30%, untuk memahami pola retur yang berkaitan dengan segmen tersebut.
-3. **Perkuat quality control**, terutama karena defective menjadi alasan retur terbanyak.
-4. **Evaluasi proses fulfillment** untuk mengurangi potensi kesalahan pengiriman seperti Wrong Item.
-5. **Monitor environmental metrics** sebagai bagian dari evaluasi dampak retur terhadap keberlanjutan operasional.
+CO₂ Emissions: 2.167,50
 
-> Catatan: Analisis menunjukkan hubungan/pola pada data dan tidak dimaksudkan untuk menyimpulkan hubungan sebab-akibat.
+Packaging Waste: 864,20
+
+Pada pesanan yang tidak dikembalikan:
+
+CO₂ Saved: 5.333,00
+
+Waste Avoided: 2.133,40
+
+Nilai tersebut menggambarkan indikator lingkungan yang tersedia dalam dataset. Interpretasi lebih lanjut perlu mempertimbangkan satuan, definisi, dan metode perhitungan setiap metrik.
+
+💡 Rekomendasi Bisnis
+
+Berdasarkan temuan analisis, beberapa rekomendasi yang dapat dipertimbangkan adalah:
+
+Evaluasi kategori Clothing. Tinjau kualitas produk, informasi ukuran, foto dan deskripsi produk, serta pola retur untuk mengidentifikasi area yang perlu diperbaiki.
+
+Tinjau transaksi dengan diskon tinggi. Analisis lebih lanjut kelompok diskon di atas 30% berdasarkan kategori produk, alasan retur, dan karakteristik transaksi untuk memahami pola yang mendasarinya.
+
+Perkuat pengendalian kualitas produk. Karena Defective merupakan alasan retur dengan jumlah tertinggi, evaluasi proses pemeriksaan produk sebelum pengiriman dapat menjadi langkah tindak lanjut.
+
+Evaluasi akurasi pemenuhan pesanan. Tinjau proses pengambilan, pengepakan, dan pengiriman barang untuk mengidentifikasi potensi kesalahan yang berkaitan dengan alasan Wrong Item.
+
+Gunakan segmentasi pelanggan sebagai dasar eksplorasi. Perbedaan tingkat retur berdasarkan gender dan kelompok usia dapat diteliti lebih lanjut bersama kategori produk dan alasan retur sebelum menentukan tindakan yang lebih spesifik.
+
+Pantau indikator lingkungan. Gunakan metrik CO₂ dan limbah kemasan untuk memantau potensi dampak lingkungan, dengan memastikan definisi dan satuan pengukuran telah tervalidasi.
+
+Catatan Interpretasi
+
+Analisis ini bersifat deskriptif dan bertujuan mengidentifikasi pola dalam dataset. Temuan tidak secara langsung membuktikan hubungan sebab-akibat. Rekomendasi di atas merupakan usulan tindak lanjut yang perlu dievaluasi lebih lanjut menggunakan data dan konteks operasional yang relevan.
 
 ---
 
