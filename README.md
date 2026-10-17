@@ -196,27 +196,29 @@ Berdasarkan hasil analisis:
 
 ---
 
-## 📊 Dashboard Preview
+## 📊 Dashboard
 
-### Page 1 — Executive Overview
+Dashboard interaktif dikembangkan menggunakan Power BI untuk menganalisis pola retur produk, dampak finansial, faktor operasional, karakteristik pelanggan, dan indikator dampak lingkungan.
 
-Overview of order volume, return rate, return costs, profit loss, and product category performance.
+### Halaman 1 — Ringkasan Eksekutif
 
-![Executive Overview Dashboard](images/overview-dashboard.png)
+Menampilkan gambaran umum kinerja transaksi dan retur, meliputi jumlah pesanan, tingkat retur, biaya retur, estimasi kerugian laba, serta tren nilai pesanan bulanan dan tingkat retur berdasarkan kategori produk.
 
-### Page 2 — Return & Financial Analysis
+![Dashboard Ringkasan Eksekutif](images/overview-dashboard.png)
 
-Analysis of return rates by discount band and shipping method, including return reasons across product categories.
+### Halaman 2 — Analisis Retur dan Finansial
 
-![Return and Financial Analysis Dashboard](images/return-drivers.png)
+Menganalisis tingkat retur berdasarkan kelompok diskon dan metode pengiriman, serta membandingkan alasan retur pada setiap kategori produk untuk mengidentifikasi area yang berpotensi memerlukan perbaikan operasional.
 
-### Page 3 — Customer & ESG Analysis
+![Dashboard Analisis Retur dan Finansial](images/return-drivers.png)
 
-Analysis of customer return patterns by demographics and location, together with environmental impact indicators.
+### Halaman 3 — Analisis Pelanggan dan ESG
 
-![Customer and ESG Analysis Dashboard](images/customer-esg.png)
+Menganalisis pola retur berdasarkan kelompok usia, gender, dan lokasi pelanggan, serta menampilkan indikator dampak lingkungan berupa emisi CO₂, limbah kemasan, CO₂ yang dihemat, dan limbah yang dihindari.
 
-## 📁 Project Structure
+![Dashboard Analisis Pelanggan dan ESG](images/customer-esg.png)
+
+## 📁 Struktur Proyek
 
 ```text
 ecommerce-return-analytics/
@@ -230,6 +232,10 @@ ecommerce-return-analytics/
 │   ├── overview-dashboard.png
 │   ├── return-drivers.png
 │   └── customer-esg.png
+└── documentation/
+    ├── PORTOFOLIO AURORA 2026.pdf
+    └── Return_Analytics_Portfolio.pdf
+```
 └── documentation/
     ├── PORTOFOLIO AURORA 2026.pdf
     └── Return_Analytics_Portfolio.pdf
