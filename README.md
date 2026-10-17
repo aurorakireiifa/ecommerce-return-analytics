@@ -196,31 +196,41 @@ Berdasarkan hasil analisis:
 
 ---
 
-## 📈 Dashboard
+## 📊 Dashboard Preview
 
-Dashboard interaktif dibuat menggunakan Power BI untuk menganalisis pola return, return cost, alasan pengembalian, serta dampak lingkungan dari aktivitas return.
+### Page 1 — Executive Overview
 
-![Return Analytics Dashboard](images/dashboard.png)
+Overview of order volume, return rate, return costs, profit loss, and product category performance.
 
----
+![Executive Overview Dashboard](images/overview-dashboard.png)
+
+### Page 2 — Return & Financial Analysis
+
+Analysis of return rates by discount band and shipping method, including return reasons across product categories.
+
+![Return and Financial Analysis Dashboard](images/return-drivers.png)
+
+### Page 3 — Customer & ESG Analysis
+
+Analysis of customer return patterns by demographics and location, together with environmental impact indicators.
+
+![Customer and ESG Analysis Dashboard](images/customer-esg.png)
 
 ## 📁 Project Structure
 
 ```text
 ecommerce-return-analytics/
-│
 ├── README.md
-│
 ├── data/
-│   └── README.md
-│
+│   ├── returns_cleaned.xlsx
+│   └── returns_sustainability_dataset.csv
 ├── powerbi/
-│   └── ecommerce_return_analytics.pbix
-│
-├── dashboard/
-│   ├── page-1-overview.png
-│   ├── page-2-return-financial.png
-│   └── page-3-customer-esg.png
-│
+│   └── Return_Analytics.pbix
+├── images/
+│   ├── overview-dashboard.png
+│   ├── return-drivers.png
+│   └── customer-esg.png
 └── documentation/
-    └── project-summary.pdf
+    ├── PORTOFOLIO AURORA 2026.pdf
+    └── Return_Analytics_Portfolio.pdf
+```
